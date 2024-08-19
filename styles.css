@@ -3,12 +3,12 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0; 
-    color: #333; 
+    background-color: #f0f0f0;
+    color: #4a4a4a;
 }
 
 header {
-    background: #2e8b57; 
+    background: #006400;;
     color: #fff;
     text-align: center;
     padding: 1rem;
@@ -33,15 +33,23 @@ main {
 }
 
 section {
+    background: #e0f2e9;
+    border: 1px solid #ccc;
     flex: 1;
     min-width: 300px;
     padding: 1rem;
-    border: 1px solid #ddd; 
     border-radius: 8px;
-    background: #fff; 
 }
 
-#about-me, #why-frontend, #projects, #experience, #contact {
+h2, a {
+    color: #3cb371;
+}
+
+#about-me,
+#why-frontend,
+#projects,
+#experience,
+#contact {
     display: flex;
     flex-direction: column;
 }
@@ -56,10 +64,11 @@ section {
     flex: 1;
     min-width: 200px;
     padding: 1rem;
-    border: 1px solid #ddd; 
     border-radius: 8px;
-    background: #f9f9f9; 
+    background: #f9f9f9;
+    border: 1px solid #b5651d;
 }
+
 footer {
     background-color: #2e8b57;
     display: flex;
@@ -73,6 +82,7 @@ footer {
 .hidden {
     display: none;
 }
+
 .footer-text p {
     font-size: 1rem;
     color: white;
@@ -87,9 +97,11 @@ footer {
     border-radius: .8rem;
     transition: .5s ease;
 }
+
 .footer-iconTop a:hover {
     box-shadow: 0 0 1rem white;
 }
+
 .footer-iconTop a i {
     font-size: 2.4rem;
     color: white;
@@ -105,19 +117,19 @@ footer {
     bottom: 10px;
     right: 10px;
     transform: translate(-50%, -10%);
-    background-color: #2e8b57; 
+    background-color: #2e8b57;
     color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 1000; 
-    opacity: 0; 
+    z-index: 1000;
+    opacity: 0;
     transition: opacity 0.5s ease-in-out;
 }
 
 /* Ocultar saludo en pantallas pequeñas */
 @media (max-width: 600px) {
     #greeting-message {
-        display: none; 
+        display: none;
     }
 }
 
