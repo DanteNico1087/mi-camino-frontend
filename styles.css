@@ -76,6 +76,50 @@ h2, a {
     border: 1px solid #b5651d;
 }
 
+/* Estilos generales para la sección de contacto */
+#contact {
+    background: #f4f7f6;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#contact p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#contact ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#contact ul li a {
+    color: #0073e6;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+#contact ul li a:hover {
+    text-decoration: underline;
+}
+
+
 footer {
     background-color: #2e8b57;
     display: flex;
@@ -142,7 +186,7 @@ footer {
 }
 
 /* Ocultar saludo en pantallas pequeñas */
-@media (max-width: 600px) {
+@media (width < 600px) {
     #greeting-message {
         display: none;
     }
