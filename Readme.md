@@ -1,8 +1,10 @@
-Introducción
+#**Introducción**
+
 Este documento proporciona una descripción técnica de las funcionalidades y características implementadas en mi blog sobre frontend. También detalla las contribuciones realizadas y justifica por qué deberían considerar mi candidatura para los grupos de trabajo en frontend.
 
-Descripción del Proyecto
-Estructura del Proyecto
+#**Descripción del Proyecto**
+
+##**Estructura del Proyecto**
 El blog está construido utilizando HTML, CSS y JavaScript, con la adición de librerías y frameworks externos para mejorar la funcionalidad y la apariencia.
 
 HTML: Estructura básica del blog, incluyendo secciones clave como "Sobre Mí", "¿Por Qué Quiero Participar en los Grupos de Trabajo como Frontend?", "Algunos de Mis Proyectos", "Mi Experiencia" y "Conecta Conmigo".
