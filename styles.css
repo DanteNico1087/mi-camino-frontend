@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     color: #4a4a4a;
-    background-image: url('./assets/img/ciudad-futurista.jpeg'); /* Reemplaza con la URL de tu imagen */
+    background-image: url('./assets/img/ciudad-futurista.jpeg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,7 +12,8 @@ body {
 }
 
 header {
-    background: #006400;;
+    background: rgb(0, 100, 0, 0.8);
+    ;
     color: #fff;
     text-align: center;
     padding: 1rem;
@@ -43,12 +44,13 @@ section {
     border: 1px solid #ddd;
     border-radius: 8px;
     background: #e0f2e9;
-    opacity: 0; 
+    opacity: 0;
     animation: fadeInUp 0.8s ease-in-out forwards;
-    animation-delay: 0.2s; 
+    animation-delay: 0.2s;
 }
 
-h2, a {
+h2,
+a {
     color: #3cb371;
 }
 
@@ -76,7 +78,6 @@ h2, a {
     border: 1px solid #b5651d;
 }
 
-/* Estilos generales para la sección de contacto */
 #contact {
     background: #f4f7f6;
     padding: 40px;
@@ -141,9 +142,9 @@ footer {
 
 .footer-iconTop {
     position: fixed;
-    bottom: 10px; 
-    right: 10px; 
-    z-index: 1000; 
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000;
 }
 
 .footer-iconTop a {
@@ -185,13 +186,6 @@ footer {
     transition: opacity 0.5s ease-in-out;
 }
 
-/* Ocultar saludo en pantallas pequeñas */
-@media (width < 600px) {
-    #greeting-message {
-        display: none;
-    }
-}
-
 #greeting-message.hidden {
     opacity: 0;
 }
@@ -200,13 +194,96 @@ footer {
     opacity: 1;
 }
 
+.typing {
+    font-size: 2.5rem;
+    color: white;
+    border-right: 3px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 4s steps(30, end) forwards, blink-caret 0.75s step-end 4;
+    animation-fill-mode: forwards;
+}
+
+.typing-delay {
+    font-size: 1.25rem;
+    color: white;
+    border-right: 3px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 6s steps(30, end) forwards, blink-caret 0.75s step-end 4;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+
+/* Animaciones */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: white;
+    }
+}
+
+
+@keyframes disappear-caret {
+    to {
+        visibility: hidden;
+    }
+}
+
+
+.typing::after {
+    content: '';
+    animation: disappear-caret 0s 4s forwards;
+}
+
+.typing-delay::after {
+    content: '';
+    animation: disappear-caret 0s 10s forwards;
+}
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
         transform: translateY(30px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+/* Ocultar saludo en pantallas pequeñas */
+@media (width < 600px) {
+    #greeting-message {
+        display: none;
+    }
+}
+
+/* Ocultar escritura con parpadeo */
+@media (width < 600px) {
+    .typing {
+        font-size: 1.5rem;
+    }
+
+    .typing-delay{
+        font-size: 0.75rem;
     }
 }
