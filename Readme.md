@@ -17,18 +17,21 @@ El blog está construido utilizando HTML, CSS y JavaScript, con la adición de l
 ## **Animaciones y Estilo de Texto**
 
 **Animaciones de Texto:** Utilización de animaciones de tipo máquina de escribir para los encabezados en el header, con un efecto de parpadeo del cursor.
-Efectos de Desvanecimiento: Secciones del blog se desvanecen en la vista con una animación de desplazamiento hacia arriba al cargarse la página.
+
+**Efectos de Desvanecimiento:** Secciones del blog se desvanecen en la vista con una animación de desplazamiento hacia arriba al cargarse la página.
 
 ## **Diseño Responsivo**
 **Estilos Responsivos:** Media queries para ajustar el tamaño del texto y ocultar ciertos elementos en pantallas pequeñas.
-Adaptabilidad del Layout: Uso de flexbox para una disposición flexible de las secciones y los proyectos, asegurando una visualización adecuada en diferentes tamaños de pantalla.
+
+**Adaptabilidad del Layout:** Uso de flexbox para una disposición flexible de las secciones y los proyectos, asegurando una visualización adecuada en diferentes tamaños de pantalla.
 
 ## **Interactividad**
 **Mensaje de Saludo Inicial:** Implementación en JavaScript para mostrar un mensaje de bienvenida que desaparece después de unos segundos.
 
 ## **Estilo y Diseño**
 **Fondo de Página:** Imagen de fondo a pantalla completa con efecto de fijación para una apariencia moderna.
-Secciones con Estilo: Aplicación de bordes, sombras, y colores personalizados para secciones como "Proyectos" y "Contacto".
+
+**Secciones con Estilo:** Aplicación de bordes, sombras, y colores personalizados para secciones como "Proyectos" y "Contacto".
 
 ## **Contribuciones de colaboradores:**
 **Enlaces de Navegación:** Enlace para regresar al inicio en el <footer>, utilizando icono (flecha hacia arriba) de Boxicons para una navegación intuitiva.
