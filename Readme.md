@@ -34,7 +34,7 @@ El blog está construido utilizando HTML, CSS y JavaScript, con la adición de l
 **Secciones con Estilo:** Aplicación de bordes, sombras, y colores personalizados para secciones como "Proyectos" y "Contacto".
 
 ## **Contribuciones de colaboradores:**
-**Enlaces de Navegación:** Enlace para regresar al inicio en el <footer>, utilizando icono (flecha hacia arriba) de Boxicons para una navegación intuitiva.
+**Enlaces de Navegación:** Enlace para regresar al inicio en el footer, utilizando icono (flecha hacia arriba) de Boxicons para una navegación intuitiva.
 
 # **¿Por Qué Debería Ser Seleccionado para los Grupos de Trabajo de Frontend?**
 ## **Experiencia Técnica Sólida:** Mi experiencia en desarrollo frontend abarca una variedad de tecnologías y herramientas que son esenciales para los grupos de trabajo actuales, como React, JavaScript, y CSS.
