@@ -8,7 +8,9 @@ Este documento proporciona una descripción técnica de las funcionalidades y ca
 El blog está construido utilizando HTML, CSS y JavaScript, con la adición de librerías y frameworks externos para mejorar la funcionalidad y la apariencia.
 
 **HTML:** Estructura básica del blog, incluyendo secciones clave como "Sobre Mí", "¿Por Qué Quiero Participar en los Grupos de Trabajo como Frontend?", "Algunos de Mis Proyectos", "Mi Experiencia" y "Conecta Conmigo".
+
 **CSS:** Estilos personalizados para diseño y animaciones, incluyendo efectos de texto, fondos, y animaciones de aparición.
+
 **JavaScript:** Implementación de funcionalidades interactivas, como la visualización de un mensaje de saludo inicial.
 
 # **Características Técnicas**
