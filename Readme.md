@@ -16,7 +16,7 @@ El blog está construido utilizando HTML, CSS y JavaScript, con la adición de l
 # **Características Técnicas**
 ## **Animaciones y Estilo de Texto**
 
-**Animaciones de Texto:** Utilización de animaciones de tipo máquina de escribir para los encabezados en el <header>, con un efecto de parpadeo del cursor.
+**Animaciones de Texto:** Utilización de animaciones de tipo máquina de escribir para los encabezados en el header, con un efecto de parpadeo del cursor.
 Efectos de Desvanecimiento: Secciones del blog se desvanecen en la vista con una animación de desplazamiento hacia arriba al cargarse la página.
 
 ## **Diseño Responsivo**
